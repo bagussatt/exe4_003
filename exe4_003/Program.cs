@@ -60,7 +60,19 @@ namespace exe4_003
         }
         static void main(string[] args)
         {
-
+            Stack l = new Stack();
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\n --------Exe4 Stack Array Menu----------");
+                Console.WriteLine("1. Push Element");
+                Console.WriteLine("2. Pop Element");
+                Console.WriteLine("3. Display element");
+                Console.WriteLine("4. Exit Program");
+                Console.WriteLine("\n Enter Your Choice :  ");
+                string input = Console.ReadLine();
+                char ch = Convert.ToChar(input);
+            }
         }
     }
 }
