@@ -9,7 +9,7 @@ namespace exe4_003
         private int top;
         private int max;
 
-        public Stack()
+        public stack()
         {
             top = -1;
             max = array.Length;
@@ -78,7 +78,16 @@ namespace exe4_003
                         l.push();
                         break;
                     case '2':
-                        l.pop()
+                        l.pop();
+                        break;
+                    case '3':
+                        l.Display();
+                        break;
+                    case '4':
+                        return ;
+                    default:
+                        Console.WriteLine("\n invalid choice");
+                        break;
                 }
             }
         }
