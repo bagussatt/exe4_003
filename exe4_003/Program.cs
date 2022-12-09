@@ -60,7 +60,7 @@ namespace exe4_003
         }
         static void main(string[] args)
         {
-            Stack l = new Stack();
+            stack l = new stack();
             while (true)
             {
                 Console.WriteLine();
@@ -71,7 +71,15 @@ namespace exe4_003
                 Console.WriteLine("4. Exit Program");
                 Console.WriteLine("\n Enter Your Choice :  ");
                 string input = Console.ReadLine();
-                char ch = Convert.ToChar(input);
+                char ch = Convert.ToChar(input == "" ? "0" : input);
+                switch (ch)
+                {
+                    case '1':
+                        l.push();
+                        break;
+                    case '2':
+                        l.pop()
+                }
             }
         }
     }
