@@ -19,7 +19,7 @@ namespace exe4_003
         {
             if (top == max - 1)
             {
-                Console.WriteLine("Stack Overflow");
+                Console.WriteLine("Stack Empty");
                 return;
             }
             else
@@ -33,7 +33,7 @@ namespace exe4_003
         {
             if (top == - 1)
             {
-                Console.WriteLine("Stack Overflow");
+                Console.WriteLine("Stack Empty");
                 return -1;
             }
             else
