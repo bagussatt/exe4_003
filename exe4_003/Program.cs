@@ -37,7 +37,9 @@ namespace exe4_003
             }
             else
             {
-                Console.WriteLine("Poped element")
+                Console.WriteLine("Poped element: " + array[top]);
+                top--;
+                return top;
             }
         }
     }
