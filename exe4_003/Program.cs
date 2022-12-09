@@ -64,7 +64,7 @@ namespace exe4_003
             while (true)
             {
                 Console.WriteLine();
-                Console.WriteLine("\n --------Exe4 Stack Array Menu----------");
+                Console.WriteLine("\n --------Exercise4 Stack Array Menu----------");
                 Console.WriteLine("1. Push Element");
                 Console.WriteLine("2. Pop Element");
                 Console.WriteLine("3. Display element");
