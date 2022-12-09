@@ -58,7 +58,7 @@ namespace exe4_003
                 }
             }
         }
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             stack l = new stack();
             while (true)
