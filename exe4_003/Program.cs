@@ -5,14 +5,14 @@ namespace exe4_003
 {
     class stack
     {
-        private String[] array = new string[23];
+        private String[] bagus = new string[23];
         private int top;
         private int max;
 
         public stack()
         {
             top = -1;
-            max = array.Length;
+            max = bagus.Length;
         }
 
         public void push()
@@ -26,7 +26,7 @@ namespace exe4_003
             {
                 top++;
                 Console.WriteLine("Silahkan Masukan Element Yang diinginkan");
-                array[top] = Console.ReadLine();
+                bagus[top] = Console.ReadLine();
             }
         }
         public int pop()
@@ -38,7 +38,7 @@ namespace exe4_003
             }
             else
             {
-                Console.WriteLine("Poped element: " + array[top]);
+                Console.WriteLine("Poped element: " + bagus[top]);
                 top--;
                 return top;
             }
@@ -54,7 +54,7 @@ namespace exe4_003
             {
                 for (int i = 0; i<= top; i++)
                 {
-                    Console.WriteLine("Element[" + (i + 1) + "] : " + array[i]);
+                    Console.WriteLine("Element[" + (i + 1) + "] : " + bagus[i]);
                 }
             }
         }
