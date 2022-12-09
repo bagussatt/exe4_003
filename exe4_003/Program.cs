@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace exe4_003
 {
@@ -41,6 +42,25 @@ namespace exe4_003
                 top--;
                 return top;
             }
+        }
+        public void Display()
+        {
+            if (top == -1)
+            {
+                Console.WriteLine("Stack Kosong");
+                return ;
+            }
+            else
+            {
+                for (int i = 0; i<= top; i++)
+                {
+                    Console.WriteLine("Element[" + (i + 1) + "] : " + array[i]);
+                }
+            }
+        }
+        static void main(string[] args)
+        {
+
         }
     }
 }
